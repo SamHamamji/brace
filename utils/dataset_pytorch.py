@@ -185,7 +185,7 @@ if __name__ == "__main__":
     # adjust csv paths if you don't run this script from its folder
 
     sequences_path_ = Path(
-        "../dataset"
+        "../data"
     )  # path where you download and unzipped the keypoints
     df_ = pd.read_csv(Path("../annotations/sequences.csv"))
 
